@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s5a-0V-ZnW">
+            <objects>
+                <viewController id="1QE-EM-9yn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H1t-0r-Qfw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Hm5-WS-dce">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="902"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fIS-we-b7a">
+                                <rect key="frame" x="24" y="374.33333333333331" width="345" height="153.66666666666669"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="cg6-6p-Hb6">
+                                        <rect key="frame" x="136.66666666666666" y="0.0" width="72" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="cg6-6p-Hb6" secondAttribute="height" id="HAR-w5-R8u"/>
+                                            <constraint firstAttribute="width" constant="72" id="gd3-9N-7rE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Therapy App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oP6-ue-gJy">
+                                        <rect key="frame" x="0.0" y="85" width="345" height="45.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="38"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A balanced mind, body, and life — all in one place." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="no5-cI-5ua">
+                                        <rect key="frame" x="0.0" y="136.66666666666669" width="345" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" name="333333_60"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="oP6-ue-gJy" firstAttribute="leading" secondItem="fIS-we-b7a" secondAttribute="leading" id="0yo-Lp-eKe"/>
+                                    <constraint firstItem="oP6-ue-gJy" firstAttribute="top" secondItem="cg6-6p-Hb6" secondAttribute="bottom" constant="13" id="2Eg-jo-Mki"/>
+                                    <constraint firstItem="no5-cI-5ua" firstAttribute="centerX" secondItem="oP6-ue-gJy" secondAttribute="centerX" id="Aej-Lv-VEz"/>
+                                    <constraint firstItem="oP6-ue-gJy" firstAttribute="centerX" secondItem="cg6-6p-Hb6" secondAttribute="centerX" id="HEq-Mz-0hT"/>
+                                    <constraint firstItem="no5-cI-5ua" firstAttribute="leading" secondItem="oP6-ue-gJy" secondAttribute="leading" id="QEd-aC-a3F"/>
+                                    <constraint firstItem="cg6-6p-Hb6" firstAttribute="top" secondItem="fIS-we-b7a" secondAttribute="top" id="hLK-Lz-53A"/>
+                                    <constraint firstAttribute="bottom" secondItem="no5-cI-5ua" secondAttribute="bottom" id="sXQ-hw-hXZ"/>
+                                    <constraint firstItem="no5-cI-5ua" firstAttribute="top" secondItem="oP6-ue-gJy" secondAttribute="bottom" constant="6" id="tPf-Id-hmH"/>
+                                    <constraint firstItem="cg6-6p-Hb6" firstAttribute="centerX" secondItem="fIS-we-b7a" secondAttribute="centerX" id="zL6-sN-23d"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xEH-qy-rEc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hm5-WS-dce" firstAttribute="centerX" secondItem="xEH-qy-rEc" secondAttribute="centerX" id="3lj-xL-zYQ"/>
+                            <constraint firstItem="fIS-we-b7a" firstAttribute="centerX" secondItem="xEH-qy-rEc" secondAttribute="centerX" id="5Z3-Bi-sCa"/>
+                            <constraint firstItem="fIS-we-b7a" firstAttribute="centerY" secondItem="xEH-qy-rEc" secondAttribute="centerY" id="KP7-uv-bp8"/>
+                            <constraint firstItem="Hm5-WS-dce" firstAttribute="centerY" secondItem="xEH-qy-rEc" secondAttribute="centerY" id="MLl-wl-Z3e"/>
+                            <constraint firstItem="fIS-we-b7a" firstAttribute="leading" secondItem="xEH-qy-rEc" secondAttribute="leading" constant="24" id="jO5-zk-zvK"/>
+                            <constraint firstItem="Hm5-WS-dce" firstAttribute="leading" secondItem="xEH-qy-rEc" secondAttribute="leading" id="nBb-hf-wBL"/>
+                            <constraint firstItem="Hm5-WS-dce" firstAttribute="top" secondItem="H1t-0r-Qfw" secondAttribute="top" id="t3o-Qg-gks"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kRq-wP-Y2d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GC7-aG-SBn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057.2519083969464" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="430" height="932"/>
+        <image name="logo" width="72" height="72"/>
+        <namedColor name="333333">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="333333_60">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
