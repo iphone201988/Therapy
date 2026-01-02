@@ -10,39 +10,34 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="72" id="KGk-i7-Jjw" customClass="GoalCell" customModule="Therapy" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="439" height="72"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="68" id="KGk-i7-Jjw" customClass="GoalCell" customModule="Therapy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="596" height="68"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="439" height="72"/>
+                <rect key="frame" x="0.0" y="0.0" width="596" height="68"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="x8F-E0-gkU">
-                        <rect key="frame" x="0.0" y="0.0" width="439" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="596" height="55.333333333333336"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pzH-PI-LmQ">
-                                <rect key="frame" x="16" y="16" width="24" height="24"/>
+                                <rect key="frame" x="16" y="15.666666666666664" width="24" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pzH-PI-LmQ" secondAttribute="height" id="4Xe-Fa-IE6"/>
                                     <constraint firstAttribute="width" constant="24" id="6PD-JR-vF8"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="leading" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56d-yg-e5h" customClass="UrbanistTextField" customModule="Therapy" customModuleProvider="target">
-                                <rect key="frame" x="48" y="8" width="343" height="40"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" name="333333"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which unhelpful thinking patterns apply to this situation?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkN-jw-yOc" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                <rect key="frame" x="48" y="18" width="500" height="19.333333333333329"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <color key="textColor" name="333333"/>
+                                <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
-                                        <color key="value" name="736B66"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Bold"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="doneAccessory" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                            </textField>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6K-LV-0pg">
-                                <rect key="frame" x="399" y="16" width="24" height="24"/>
+                                <rect key="frame" x="556" y="15.666666666666664" width="24" height="24"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tI1-p0-Btn">
                                         <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -69,15 +64,14 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ZkN-jw-yOc" firstAttribute="centerY" secondItem="x8F-E0-gkU" secondAttribute="centerY" id="0iR-I3-F4K"/>
                             <constraint firstAttribute="trailing" secondItem="D6K-LV-0pg" secondAttribute="trailing" constant="16" id="7T9-5u-nAn"/>
-                            <constraint firstItem="56d-yg-e5h" firstAttribute="centerY" secondItem="pzH-PI-LmQ" secondAttribute="centerY" id="Tsw-t1-R4F"/>
+                            <constraint firstItem="ZkN-jw-yOc" firstAttribute="top" secondItem="x8F-E0-gkU" secondAttribute="top" constant="18" id="Bom-Jw-Q5R"/>
+                            <constraint firstItem="D6K-LV-0pg" firstAttribute="centerY" secondItem="ZkN-jw-yOc" secondAttribute="centerY" id="UNX-rv-6mU"/>
+                            <constraint firstItem="ZkN-jw-yOc" firstAttribute="leading" secondItem="pzH-PI-LmQ" secondAttribute="trailing" constant="8" id="WHl-u3-Y9l"/>
                             <constraint firstItem="pzH-PI-LmQ" firstAttribute="centerY" secondItem="x8F-E0-gkU" secondAttribute="centerY" id="hOq-9o-6Di"/>
-                            <constraint firstItem="D6K-LV-0pg" firstAttribute="leading" secondItem="56d-yg-e5h" secondAttribute="trailing" constant="8" id="nA5-An-eXL"/>
-                            <constraint firstAttribute="height" constant="56" id="p6p-d4-Pzp"/>
-                            <constraint firstItem="D6K-LV-0pg" firstAttribute="centerY" secondItem="56d-yg-e5h" secondAttribute="centerY" id="pCw-7Q-jRH"/>
+                            <constraint firstItem="D6K-LV-0pg" firstAttribute="leading" secondItem="ZkN-jw-yOc" secondAttribute="trailing" constant="8" id="l1m-Js-orD"/>
                             <constraint firstItem="pzH-PI-LmQ" firstAttribute="leading" secondItem="x8F-E0-gkU" secondAttribute="leading" constant="16" id="vHM-su-3ao"/>
-                            <constraint firstItem="56d-yg-e5h" firstAttribute="top" secondItem="x8F-E0-gkU" secondAttribute="top" constant="8" id="yPZ-k3-xAL"/>
-                            <constraint firstItem="56d-yg-e5h" firstAttribute="leading" secondItem="pzH-PI-LmQ" secondAttribute="trailing" constant="8" id="zqs-3G-0BH"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
@@ -93,7 +87,7 @@
                 <constraints>
                     <constraint firstItem="x8F-E0-gkU" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="0lb-7b-7fG"/>
                     <constraint firstItem="x8F-E0-gkU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3xa-JH-8y0"/>
-                    <constraint firstAttribute="bottom" secondItem="x8F-E0-gkU" secondAttribute="bottom" constant="16" id="Ik7-Xe-KUw"/>
+                    <constraint firstAttribute="bottom" secondItem="x8F-E0-gkU" secondAttribute="bottom" constant="12.666666666666664" id="92y-Js-zZS"/>
                     <constraint firstItem="x8F-E0-gkU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fBm-GP-YZf"/>
                 </constraints>
             </tableViewCellContentView>
@@ -101,19 +95,20 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="icon" destination="pzH-PI-LmQ" id="8s3-ry-umS"/>
+                <outlet property="icon2Leading" destination="l1m-Js-orD" id="Njp-h2-Im6"/>
+                <outlet property="icon2Width" destination="3jE-62-0aE" id="pM0-L0-fh8"/>
+                <outlet property="iconLeading" destination="WHl-u3-Y9l" id="TL7-8N-cEm"/>
+                <outlet property="iconWidth" destination="6PD-JR-vF8" id="xDc-eY-vRv"/>
                 <outlet property="mainView" destination="x8F-E0-gkU" id="ife-f2-hHe"/>
                 <outlet property="selectedUnselectedIcon" destination="tI1-p0-Btn" id="BD2-4w-KQO"/>
-                <outlet property="title" destination="56d-yg-e5h" id="545-lR-6yY"/>
+                <outlet property="title" destination="ZkN-jw-yOc" id="SHv-Id-tpq"/>
             </connections>
-            <point key="canvasLocation" x="32.824427480916029" y="-1.4084507042253522"/>
+            <point key="canvasLocation" x="152.67175572519082" y="-2.8169014084507045"/>
         </tableViewCell>
     </objects>
     <resources>
         <namedColor name="333333">
             <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="736B66">
-            <color red="0.45098039215686275" green="0.41960784313725491" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

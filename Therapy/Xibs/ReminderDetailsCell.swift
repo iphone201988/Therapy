@@ -1,24 +1,15 @@
 //
-//  GoalCell.swift
+//  ReminderDetailsCell.swift
 //  Therapy
 //
-//  Created by iOS Developer on 30/12/25.
+//  Created by iOS Developer on 02/01/26.
 //
-
-
 
 import UIKit
 
-class GoalCell: UITableViewCell {
-
-    @IBOutlet weak var icon: UIImageView!
+class ReminderDetailsCell: UITableViewCell {
+    
     @IBOutlet weak var title: UrbanistLabel!
-    @IBOutlet weak var selectedUnselectedIcon: UIImageView!
-    @IBOutlet weak var mainView: UIView!
-    @IBOutlet weak var iconWidth: NSLayoutConstraint!
-    @IBOutlet weak var iconLeading: NSLayoutConstraint!
-    @IBOutlet weak var icon2Width: NSLayoutConstraint!
-    @IBOutlet weak var icon2Leading: NSLayoutConstraint!
     
     class var identifier: String {
         return String(describing: self)

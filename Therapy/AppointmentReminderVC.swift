@@ -7,19 +7,20 @@
 
 import UIKit
 
-class CBTActivitiesVC: UIViewController {
+class AppointmentReminderVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    
     @IBAction func back(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
     
-    @IBAction func startExercise(_ sender: UIButton) {
-        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "CBTActivitiesExercisesVC") as! CBTActivitiesExercisesVC
+    @IBAction func saveReminder(_ sender: UIButton) {
+        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "ReminderDetailsVC") as! ReminderDetailsVC
         SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
     }
 }

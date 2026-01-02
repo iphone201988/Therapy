@@ -127,6 +127,20 @@
 		8BC9BD742F05356E00F33682 /* YourJournalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9BD732F05356E00F33682 /* YourJournalVC.swift */; };
 		8BC9BD762F05372400F33682 /* JournalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9BD752F05372400F33682 /* JournalDetailsVC.swift */; };
 		8BC9BD782F05387600F33682 /* ExercisesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9BD772F05387600F33682 /* ExercisesVC.swift */; };
+		8BCA8BCF2F07C6D3005BCDDF /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BCE2F07C6D3005BCDDF /* ReminderVC.swift */; };
+		8BCA8BD12F07CDC6005BCDDF /* AddReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BD02F07CDC6005BCDDF /* AddReminderVC.swift */; };
+		8BCA8BD32F07CF03005BCDDF /* ExerciseReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BD22F07CF03005BCDDF /* ExerciseReminderVC.swift */; };
+		8BCA8BD72F07D80B005BCDDF /* MedicationReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BD62F07D80B005BCDDF /* MedicationReminderVC.swift */; };
+		8BCA8BD92F07D8C1005BCDDF /* AppointmentReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BD82F07D8C1005BCDDF /* AppointmentReminderVC.swift */; };
+		8BCA8BDB2F07DD55005BCDDF /* ReminderDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BDA2F07DD55005BCDDF /* ReminderDetailsVC.swift */; };
+		8BCA8BDE2F07DF97005BCDDF /* ReminderDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BDC2F07DF97005BCDDF /* ReminderDetailsCell.swift */; };
+		8BCA8BDF2F07DF97005BCDDF /* ReminderDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA8BDD2F07DF97005BCDDF /* ReminderDetailsCell.xib */; };
+		8BCA8BE12F07E20A005BCDDF /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BE02F07E20A005BCDDF /* NotificationsVC.swift */; };
+		8BE851CE2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE851CD2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift */; };
+		8BE851D12F07864600DE8890 /* CounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE851CF2F07864600DE8890 /* CounterCell.swift */; };
+		8BE851D22F07864600DE8890 /* CounterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE851D02F07864600DE8890 /* CounterCell.xib */; };
+		8BE851D52F07A39E00DE8890 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE851D32F07A39E00DE8890 /* SummaryCell.swift */; };
+		8BE851D62F07A39E00DE8890 /* SummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE851D42F07A39E00DE8890 /* SummaryCell.xib */; };
 		8BED505D2F05400800447429 /* TabbarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED505C2F05400800447429 /* TabbarsVC.swift */; };
 		8BED505F2F05418300447429 /* ExercisesForYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED505E2F05418300447429 /* ExercisesForYouVC.swift */; };
 		8BED50622F05436800447429 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED50602F05436800447429 /* ExerciseCell.swift */; };
@@ -260,6 +274,20 @@
 		8BC9BD732F05356E00F33682 /* YourJournalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourJournalVC.swift; sourceTree = "<group>"; };
 		8BC9BD752F05372400F33682 /* JournalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailsVC.swift; sourceTree = "<group>"; };
 		8BC9BD772F05387600F33682 /* ExercisesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesVC.swift; sourceTree = "<group>"; };
+		8BCA8BCE2F07C6D3005BCDDF /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
+		8BCA8BD02F07CDC6005BCDDF /* AddReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderVC.swift; sourceTree = "<group>"; };
+		8BCA8BD22F07CF03005BCDDF /* ExerciseReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseReminderVC.swift; sourceTree = "<group>"; };
+		8BCA8BD62F07D80B005BCDDF /* MedicationReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationReminderVC.swift; sourceTree = "<group>"; };
+		8BCA8BD82F07D8C1005BCDDF /* AppointmentReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentReminderVC.swift; sourceTree = "<group>"; };
+		8BCA8BDA2F07DD55005BCDDF /* ReminderDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailsVC.swift; sourceTree = "<group>"; };
+		8BCA8BDC2F07DF97005BCDDF /* ReminderDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailsCell.swift; sourceTree = "<group>"; };
+		8BCA8BDD2F07DF97005BCDDF /* ReminderDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetailsCell.xib; sourceTree = "<group>"; };
+		8BCA8BE02F07E20A005BCDDF /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		8BE851CD2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTActivitiesExercisesVC.swift; sourceTree = "<group>"; };
+		8BE851CF2F07864600DE8890 /* CounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCell.swift; sourceTree = "<group>"; };
+		8BE851D02F07864600DE8890 /* CounterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterCell.xib; sourceTree = "<group>"; };
+		8BE851D32F07A39E00DE8890 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		8BE851D42F07A39E00DE8890 /* SummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummaryCell.xib; sourceTree = "<group>"; };
 		8BED505C2F05400800447429 /* TabbarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarsVC.swift; sourceTree = "<group>"; };
 		8BED505E2F05418300447429 /* ExercisesForYouVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesForYouVC.swift; sourceTree = "<group>"; };
 		8BED50602F05436800447429 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
@@ -304,21 +332,31 @@
 			children = (
 				8B010D212F03D0B000E4EDEF /* AppVault.plist */,
 				8B010BC72F03CA4B00E4EDEF /* Info.plist */,
+				8BCA8BD02F07CDC6005BCDDF /* AddReminderVC.swift */,
 				8B010BC52F03CA4B00E4EDEF /* AppDelegate.swift */,
+				8BCA8BD82F07D8C1005BCDDF /* AppointmentReminderVC.swift */,
+				8BED50682F05582500447429 /* BreathingExerciseVC.swift */,
+				8BE851CD2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift */,
+				8BED506A2F055B7400447429 /* CBTActivitiesVC.swift */,
 				8B010DAE2F04063100E4EDEF /* CreatePasswordVC.swift */,
 				8B010DA82F03FD0200E4EDEF /* EmergencyContactSetupVC.swift */,
 				8BC9BD5E2F05042B00F33682 /* EmotionNotesVC.swift */,
+				8BCA8BD22F07CF03005BCDDF /* ExerciseReminderVC.swift */,
 				8BED505E2F05418300447429 /* ExercisesForYouVC.swift */,
 				8BC9BD772F05387600F33682 /* ExercisesVC.swift */,
 				8B010DB42F04067500E4EDEF /* ForgotPasswordVC.swift */,
 				8BC9BD4E2F04E60A00F33682 /* HomeVC.swift */,
 				8BC9BD752F05372400F33682 /* JournalDetailsVC.swift */,
 				8B010DB02F04065C00E4EDEF /* LoginVC.swift */,
+				8BCA8BD62F07D80B005BCDDF /* MedicationReminderVC.swift */,
 				8BED50642F05468D00447429 /* MindfulBreathingVC.swift */,
 				8BC9BD682F05215E00F33682 /* MoodInsightsVC.swift */,
 				8BC9BD582F04FC7C00F33682 /* MoodSelectorVC.swift */,
 				8B010DB62F04068C00E4EDEF /* OTPVC.swift */,
 				8BC9BD602F05182000F33682 /* ReflectToLogVC.swift */,
+				8BCA8BDA2F07DD55005BCDDF /* ReminderDetailsVC.swift */,
+				8BCA8BCE2F07C6D3005BCDDF /* ReminderVC.swift */,
+				8BCA8BE02F07E20A005BCDDF /* NotificationsVC.swift */,
 				8B010DB82F0406A500E4EDEF /* SafetyMattersVC.swift */,
 				8BC9BD6A2F052C7E00F33682 /* SavedLogsVC.swift */,
 				8B010BCC2F03CA4B00E4EDEF /* SceneDelegate.swift */,
@@ -327,10 +365,8 @@
 				8BED505C2F05400800447429 /* TabbarsVC.swift */,
 				8B010D9F2F03D1B500E4EDEF /* VaultInfo.swift */,
 				8B010DBA2F0406C500E4EDEF /* VerificationCodeVC.swift */,
-				8BED506A2F055B7400447429 /* CBTActivitiesVC.swift */,
 				8B010BCD2F03CA4B00E4EDEF /* ViewController.swift */,
 				8BC9BD622F051A5900F33682 /* WellnessWheelListVC.swift */,
-				8BED50682F05582500447429 /* BreathingExerciseVC.swift */,
 				8BC9BD732F05356E00F33682 /* YourJournalVC.swift */,
 				8B010DA12F03F42700E4EDEF /* YourWellnessGoalVC.swift */,
 				8B010BC62F03CA4B00E4EDEF /* Assets.xcassets */,
@@ -519,6 +555,12 @@
 				8BC9BD6D2F052D3E00F33682 /* SavedLogCell.xib */,
 				8BED50602F05436800447429 /* ExerciseCell.swift */,
 				8BED50612F05436800447429 /* ExerciseCell.xib */,
+				8BE851CF2F07864600DE8890 /* CounterCell.swift */,
+				8BE851D02F07864600DE8890 /* CounterCell.xib */,
+				8BE851D32F07A39E00DE8890 /* SummaryCell.swift */,
+				8BE851D42F07A39E00DE8890 /* SummaryCell.xib */,
+				8BCA8BDC2F07DF97005BCDDF /* ReminderDetailsCell.swift */,
+				8BCA8BDD2F07DF97005BCDDF /* ReminderDetailsCell.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -590,6 +632,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE851D62F07A39E00DE8890 /* SummaryCell.xib in Resources */,
 				8BC9BD5C2F04FF4800F33682 /* TagCell.xib in Resources */,
 				8BED50632F05436800447429 /* ExerciseCell.xib in Resources */,
 				8B010D092F03CCE600E4EDEF /* Urbanist-Black.ttf in Resources */,
@@ -599,7 +642,9 @@
 				8B010D0D2F03CCE600E4EDEF /* Urbanist-ExtraBold.ttf in Resources */,
 				8B010DA62F03F49000E4EDEF /* GoalCell.xib in Resources */,
 				8BC9BD6F2F052D3E00F33682 /* SavedLogCell.xib in Resources */,
+				8BCA8BDF2F07DF97005BCDDF /* ReminderDetailsCell.xib in Resources */,
 				8B010D0E2F03CCE600E4EDEF /* Urbanist-ExtraBoldItalic.ttf in Resources */,
+				8BE851D22F07864600DE8890 /* CounterCell.xib in Resources */,
 				8B010D0F2F03CCE600E4EDEF /* Urbanist-ExtraLight.ttf in Resources */,
 				8B010D102F03CCE600E4EDEF /* Urbanist-ExtraLightItalic.ttf in Resources */,
 				8B010D112F03CCE600E4EDEF /* Urbanist-Italic.ttf in Resources */,
@@ -640,6 +685,7 @@
 				8B010BD32F03CA4B00E4EDEF /* AppDelegate.swift in Sources */,
 				8B010D662F03D0BA00E4EDEF /* KeyboardEventListener.swift in Sources */,
 				8B010D672F03D0BA00E4EDEF /* StringExtension.swift in Sources */,
+				8BE851D52F07A39E00DE8890 /* SummaryCell.swift in Sources */,
 				8BC9BD6B2F052C7E00F33682 /* SavedLogsVC.swift in Sources */,
 				8B010D682F03D0BA00E4EDEF /* Toast.swift in Sources */,
 				8B010D692F03D0BA00E4EDEF /* DateUtils.swift in Sources */,
@@ -649,9 +695,11 @@
 				8B010D6D2F03D0BA00E4EDEF /* TextFieldExt.swift in Sources */,
 				8B010DBB2F0406C500E4EDEF /* VerificationCodeVC.swift in Sources */,
 				8B010D6E2F03D0BA00E4EDEF /* DoubleExt.swift in Sources */,
+				8BCA8BD32F07CF03005BCDDF /* ExerciseReminderVC.swift in Sources */,
 				8B010D6F2F03D0BA00E4EDEF /* LimitedAssetPreviewCell.swift in Sources */,
 				8BC9BD522F04F23200F33682 /* SuggestedCell.swift in Sources */,
 				8B010DA22F03F42700E4EDEF /* YourWellnessGoalVC.swift in Sources */,
+				8BE851CE2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift in Sources */,
 				8BC9BD742F05356E00F33682 /* YourJournalVC.swift in Sources */,
 				8B010D702F03D0BA00E4EDEF /* InspectableTextField.swift in Sources */,
 				8B010DB72F04068C00E4EDEF /* OTPVC.swift in Sources */,
@@ -667,18 +715,23 @@
 				8BED505F2F05418300447429 /* ExercisesForYouVC.swift in Sources */,
 				8B010D762F03D0BA00E4EDEF /* RemoteRequestManager.swift in Sources */,
 				8BC9BD762F05372400F33682 /* JournalDetailsVC.swift in Sources */,
+				8BE851D12F07864600DE8890 /* CounterCell.swift in Sources */,
+				8BCA8BDB2F07DD55005BCDDF /* ReminderDetailsVC.swift in Sources */,
 				8B010D772F03D0BA00E4EDEF /* Transitions.swift in Sources */,
 				8B010DB52F04067500E4EDEF /* ForgotPasswordVC.swift in Sources */,
 				8B010D782F03D0BA00E4EDEF /* UIImageViewExtension.swift in Sources */,
 				8B010D792F03D0BA00E4EDEF /* Settings.swift in Sources */,
+				8BCA8BD12F07CDC6005BCDDF /* AddReminderVC.swift in Sources */,
 				8BC9BD662F051BC200F33682 /* WellnessWheelCell.swift in Sources */,
 				8BC9BD632F051A5900F33682 /* WellnessWheelListVC.swift in Sources */,
 				8B010D7A2F03D0BA00E4EDEF /* InputFieldValidator.swift in Sources */,
 				8B010D7B2F03D0BA00E4EDEF /* CircularProgressBar.swift in Sources */,
+				8BCA8BD72F07D80B005BCDDF /* MedicationReminderVC.swift in Sources */,
 				8B010D7C2F03D0BA00E4EDEF /* DataExt.swift in Sources */,
 				8BC9BD782F05387600F33682 /* ExercisesVC.swift in Sources */,
 				8B010D7D2F03D0BA00E4EDEF /* CustomMovieActivityItemSource.swift in Sources */,
 				8B010D7E2F03D0BA00E4EDEF /* UIColorExt.swift in Sources */,
+				8BCA8BD92F07D8C1005BCDDF /* AppointmentReminderVC.swift in Sources */,
 				8B010D7F2F03D0BA00E4EDEF /* PickerManager.swift in Sources */,
 				8B010D812F03D0BA00E4EDEF /* CollectionViewExt.swift in Sources */,
 				8B010D822F03D0BA00E4EDEF /* UILabelExtensions.swift in Sources */,
@@ -696,9 +749,11 @@
 				8BC9BD6E2F052D3E00F33682 /* SavedLogCell.swift in Sources */,
 				8B010D8A2F03D0BA00E4EDEF /* TPKeyboardAvoidingScrollView.m in Sources */,
 				8B010D8B2F03D0BA00E4EDEF /* Enums.swift in Sources */,
+				8BCA8BDE2F07DF97005BCDDF /* ReminderDetailsCell.swift in Sources */,
 				8BC9BD5F2F05042B00F33682 /* EmotionNotesVC.swift in Sources */,
 				8B010D8C2F03D0BA00E4EDEF /* CometLoader.swift in Sources */,
 				8BC9BD562F04F55900F33682 /* QuickCell.swift in Sources */,
+				8BCA8BE12F07E20A005BCDDF /* NotificationsVC.swift in Sources */,
 				8B010D8D2F03D0BA00E4EDEF /* Protocols.swift in Sources */,
 				8BC9BD5D2F04FF4800F33682 /* TagCell.swift in Sources */,
 				8B010DB92F0406A500E4EDEF /* SafetyMattersVC.swift in Sources */,
@@ -709,6 +764,7 @@
 				8B010D912F03D0BA00E4EDEF /* LogHandler.swift in Sources */,
 				8B010DA72F03F49000E4EDEF /* GoalCell.swift in Sources */,
 				8B010D922F03D0BA00E4EDEF /* TableViewExt.swift in Sources */,
+				8BCA8BCF2F07C6D3005BCDDF /* ReminderVC.swift in Sources */,
 				8B010D942F03D0BA00E4EDEF /* PopupUtil.swift in Sources */,
 				8B010D952F03D0BA00E4EDEF /* DropdownManager.swift in Sources */,
 				8B010D962F03D0BA00E4EDEF /* DispatchQueue.swift in Sources */,

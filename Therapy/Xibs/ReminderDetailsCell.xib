@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="236" id="KGk-i7-Jjw" customClass="ReminderDetailsCell" customModule="Therapy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="510" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="510" height="236"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="BYe-6G-1XX">
+                        <rect key="frame" x="0.0" y="0.0" width="510" height="224"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="snt-oH-0HE">
+                                <rect key="frame" x="18" y="18" width="474" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reminder Type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZP-Aj-7Eb" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMm-W6-v0c" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="21" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" name="ACB884"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="SemiBold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="gZP-Aj-7Eb" firstAttribute="top" secondItem="snt-oH-0HE" secondAttribute="top" id="Kr5-s0-jJV"/>
+                                    <constraint firstItem="gZP-Aj-7Eb" firstAttribute="leading" secondItem="snt-oH-0HE" secondAttribute="leading" id="MMN-E4-48f"/>
+                                    <constraint firstItem="uMm-W6-v0c" firstAttribute="centerX" secondItem="gZP-Aj-7Eb" secondAttribute="centerX" id="TjG-Yc-vxL"/>
+                                    <constraint firstItem="gZP-Aj-7Eb" firstAttribute="centerX" secondItem="snt-oH-0HE" secondAttribute="centerX" id="c7L-3R-EsO"/>
+                                    <constraint firstItem="uMm-W6-v0c" firstAttribute="leading" secondItem="gZP-Aj-7Eb" secondAttribute="leading" id="fI6-nW-6vL"/>
+                                    <constraint firstItem="uMm-W6-v0c" firstAttribute="top" secondItem="gZP-Aj-7Eb" secondAttribute="bottom" constant="4" id="z12-cg-EKW"/>
+                                    <constraint firstAttribute="bottom" secondItem="uMm-W6-v0c" secondAttribute="bottom" id="zyE-ST-NzK"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="GaZ-Ck-f8S">
+                                <rect key="frame" x="18" y="68" width="474" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLP-L4-owK" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice Breathing Exercise" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKf-Lu-UjM" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="21" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" name="ACB884"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="SemiBold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="fLP-L4-owK" firstAttribute="top" secondItem="GaZ-Ck-f8S" secondAttribute="top" id="0XC-LI-nCb"/>
+                                    <constraint firstAttribute="bottom" secondItem="gKf-Lu-UjM" secondAttribute="bottom" id="1Tz-Mf-beX"/>
+                                    <constraint firstItem="gKf-Lu-UjM" firstAttribute="top" secondItem="fLP-L4-owK" secondAttribute="bottom" constant="4" id="9Gj-z1-04d"/>
+                                    <constraint firstItem="gKf-Lu-UjM" firstAttribute="leading" secondItem="fLP-L4-owK" secondAttribute="leading" id="BdT-OG-GjT"/>
+                                    <constraint firstItem="gKf-Lu-UjM" firstAttribute="centerX" secondItem="fLP-L4-owK" secondAttribute="centerX" id="HDX-Kz-XRj"/>
+                                    <constraint firstItem="fLP-L4-owK" firstAttribute="centerX" secondItem="GaZ-Ck-f8S" secondAttribute="centerX" id="RpG-kY-lDT"/>
+                                    <constraint firstItem="fLP-L4-owK" firstAttribute="leading" secondItem="GaZ-Ck-f8S" secondAttribute="leading" id="UZF-Va-DqB"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="97d-2b-jkP">
+                                <rect key="frame" x="18" y="118" width="474" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date / Time:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkH-0c-3Sm" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tue, 18 Feb — 4:00 PM" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFw-YR-GWP" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="21" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" name="ACB884"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="SemiBold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hFw-YR-GWP" secondAttribute="bottom" id="Q2t-mA-tDF"/>
+                                    <constraint firstItem="FkH-0c-3Sm" firstAttribute="top" secondItem="97d-2b-jkP" secondAttribute="top" id="fn7-kj-8xh"/>
+                                    <constraint firstItem="FkH-0c-3Sm" firstAttribute="centerX" secondItem="97d-2b-jkP" secondAttribute="centerX" id="ipu-dE-bz7"/>
+                                    <constraint firstItem="hFw-YR-GWP" firstAttribute="top" secondItem="FkH-0c-3Sm" secondAttribute="bottom" constant="4" id="lbU-qE-EtQ"/>
+                                    <constraint firstItem="FkH-0c-3Sm" firstAttribute="leading" secondItem="97d-2b-jkP" secondAttribute="leading" id="oby-3w-Tn2"/>
+                                    <constraint firstItem="hFw-YR-GWP" firstAttribute="centerX" secondItem="FkH-0c-3Sm" secondAttribute="centerX" id="piw-dw-Cx9"/>
+                                    <constraint firstItem="hFw-YR-GWP" firstAttribute="leading" secondItem="FkH-0c-3Sm" secondAttribute="leading" id="r5I-84-sDh"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="MHW-nf-hxj">
+                                <rect key="frame" x="18" y="168" width="474" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJy-kw-cvY" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LA9-Rd-5Oj" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="21" width="474" height="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" name="ACB884"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="SemiBold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="LA9-Rd-5Oj" firstAttribute="top" secondItem="OJy-kw-cvY" secondAttribute="bottom" constant="4" id="CVg-4d-2x9"/>
+                                    <constraint firstItem="OJy-kw-cvY" firstAttribute="top" secondItem="MHW-nf-hxj" secondAttribute="top" id="Cvp-fd-ahg"/>
+                                    <constraint firstAttribute="bottom" secondItem="LA9-Rd-5Oj" secondAttribute="bottom" id="KOt-eD-nah"/>
+                                    <constraint firstItem="LA9-Rd-5Oj" firstAttribute="centerX" secondItem="OJy-kw-cvY" secondAttribute="centerX" id="OoL-fu-Iwb"/>
+                                    <constraint firstItem="LA9-Rd-5Oj" firstAttribute="leading" secondItem="OJy-kw-cvY" secondAttribute="leading" id="PgM-zs-YA5"/>
+                                    <constraint firstItem="OJy-kw-cvY" firstAttribute="centerX" secondItem="MHW-nf-hxj" secondAttribute="centerX" id="maJ-ew-Byt"/>
+                                    <constraint firstItem="OJy-kw-cvY" firstAttribute="leading" secondItem="MHW-nf-hxj" secondAttribute="leading" id="uiY-JG-pkw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GaZ-Ck-f8S" firstAttribute="top" secondItem="snt-oH-0HE" secondAttribute="bottom" constant="12" id="8q3-YV-bRQ"/>
+                            <constraint firstItem="GaZ-Ck-f8S" firstAttribute="leading" secondItem="snt-oH-0HE" secondAttribute="leading" id="CDD-dk-C8h"/>
+                            <constraint firstItem="97d-2b-jkP" firstAttribute="leading" secondItem="GaZ-Ck-f8S" secondAttribute="leading" id="EpR-Lp-6Ye"/>
+                            <constraint firstItem="snt-oH-0HE" firstAttribute="top" secondItem="BYe-6G-1XX" secondAttribute="top" constant="18" id="ICZ-yf-d7n"/>
+                            <constraint firstItem="MHW-nf-hxj" firstAttribute="leading" secondItem="97d-2b-jkP" secondAttribute="leading" id="NIw-mk-bPj"/>
+                            <constraint firstItem="97d-2b-jkP" firstAttribute="top" secondItem="GaZ-Ck-f8S" secondAttribute="bottom" constant="12" id="Oql-4g-cRU"/>
+                            <constraint firstAttribute="bottom" secondItem="MHW-nf-hxj" secondAttribute="bottom" constant="18" id="ZGI-5K-QYy"/>
+                            <constraint firstItem="97d-2b-jkP" firstAttribute="centerX" secondItem="GaZ-Ck-f8S" secondAttribute="centerX" id="ah6-yX-XHp"/>
+                            <constraint firstItem="MHW-nf-hxj" firstAttribute="top" secondItem="97d-2b-jkP" secondAttribute="bottom" constant="12" id="kLW-J3-4wp"/>
+                            <constraint firstItem="snt-oH-0HE" firstAttribute="centerX" secondItem="BYe-6G-1XX" secondAttribute="centerX" id="l93-xE-5WG"/>
+                            <constraint firstItem="snt-oH-0HE" firstAttribute="centerX" secondItem="BYe-6G-1XX" secondAttribute="centerX" id="lzf-0h-54S"/>
+                            <constraint firstItem="MHW-nf-hxj" firstAttribute="centerX" secondItem="97d-2b-jkP" secondAttribute="centerX" id="mCf-QH-YPF"/>
+                            <constraint firstItem="snt-oH-0HE" firstAttribute="leading" secondItem="BYe-6G-1XX" secondAttribute="leading" constant="18" id="mdt-bL-8NA"/>
+                            <constraint firstItem="GaZ-Ck-f8S" firstAttribute="centerX" secondItem="snt-oH-0HE" secondAttribute="centerX" id="yBU-AE-xYd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="333333"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="BYe-6G-1XX" secondAttribute="bottom" constant="12" id="FjF-oj-mxM"/>
+                    <constraint firstItem="BYe-6G-1XX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TEn-rE-5ww"/>
+                    <constraint firstItem="BYe-6G-1XX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dOV-OJ-ofa"/>
+                    <constraint firstItem="BYe-6G-1XX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="x7B-rG-qJz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="145.03816793893128" y="56.338028169014088"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="333333">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ACB884">
+            <color red="0.67450980392156867" green="0.72156862745098038" blue="0.51764705882352946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

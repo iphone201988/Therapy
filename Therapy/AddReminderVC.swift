@@ -7,9 +7,8 @@
 
 import UIKit
 
-class ExercisesVC: UIViewController {
+class AddReminderVC: UIViewController {
     
-    @IBOutlet weak var topView: UIView!
     @IBOutlet weak var tbView: UITableView! {
         didSet {
             tbView.registerCellFromNib(cellID: SuggestedCell.identifier)
@@ -19,21 +18,14 @@ class ExercisesVC: UIViewController {
     }
     
     var arr = [
-        ["title": "Mindfulness & Meditation", "icon": "image 2"],
-        ["title": "Breathing Exercise", "icon": "image 4"],
-        ["title": "CBT Activities", "icon": "image 3-1 1"],
-        ["title": "Articles & Videos", "icon": "image 3-2"]
+        ["title": "Practice Exercise", "icon": "image 4"],
+        ["title": "Medication Reminder", "icon": "image 2"],
+        ["title": "Appointment Reminder", "icon": "image 6"],
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        topView.layer.cornerRadius = 40
-        topView.layer.maskedCorners = [
-            .layerMinXMaxYCorner, // bottom-left
-            .layerMaxXMaxYCorner  // bottom-right
-        ]
-        topView.clipsToBounds = true
     }
     @IBAction func back(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
@@ -47,7 +39,7 @@ class ExercisesVC: UIViewController {
 }
 
 // MARK: Delegates and DataSources
-extension ExercisesVC: UITableViewDelegate, UITableViewDataSource {
+extension AddReminderVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         arr.count
@@ -69,7 +61,7 @@ extension ExercisesVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "CBTActivitiesVC") as! CBTActivitiesVC
+        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "ExerciseReminderVC") as! ExerciseReminderVC
         SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
     }
 }
