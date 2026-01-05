@@ -54,6 +54,11 @@ class HomeVC: UIViewController {
         SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
     }
     
+    @IBAction func profile(_ sender: UIButton) {
+        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "ProfileVC") as! ProfileVC
+        SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
+    }
+    
 }
 
 // MARK: Delegates and DataSources

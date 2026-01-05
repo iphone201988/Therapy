@@ -10,6 +10,10 @@ import UIKit
 class ExerciseCell: UITableViewCell {
     
     @IBOutlet weak var title: UrbanistLabel!
+    @IBOutlet weak var subTitle1: UrbanistLabel!
+    @IBOutlet weak var subTitle2: UrbanistLabel!
+    @IBOutlet weak var subTitle3: UrbanistLabel!
+    @IBOutlet weak var subTitleImg: UIImageView!
     
     class var identifier: String {
         return String(describing: self)

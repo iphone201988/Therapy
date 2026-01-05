@@ -122,7 +122,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="K41-an-IEV" firstAttribute="leading" secondItem="bGO-ey-nc3" secondAttribute="leading" constant="12" id="6YW-Na-KE4"/>
                             <constraint firstItem="K41-an-IEV" firstAttribute="centerY" secondItem="bGO-ey-nc3" secondAttribute="centerY" id="F7y-2Z-teL"/>

@@ -75,6 +75,13 @@ extension NotificationsVC: UITableViewDelegate, UITableViewDataSource {
         }
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "SnoozeVC") as! SnoozeVC
+            SharedMethods.shared.presentVC(destVC: destVC, modalPresentationStyle: .overCurrentContext, isAnimated: true)
+        }
+    }
 }
 
 // MARK: Delegates and DataSources

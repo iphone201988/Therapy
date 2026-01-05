@@ -121,7 +121,11 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="icon" destination="gSZ-F2-YI1" id="Zcy-zQ-e2p"/>
+                <outlet property="iconTrailing" destination="aR2-Gc-HvR" id="DHt-Yd-ijs"/>
+                <outlet property="iconWidth" destination="oUO-ay-B2T" id="JHc-3j-2hL"/>
                 <outlet property="mainView" destination="CuI-j3-uQl" id="1Te-XQ-NTN"/>
+                <outlet property="mainViewHeight" destination="Not-X0-cld" id="1Z5-Kd-0ex"/>
+                <outlet property="nextIcon" destination="fc6-EC-83k" id="F2K-V5-wkt"/>
                 <outlet property="subTitle" destination="Zvk-vG-vCb" id="X8L-53-yOq"/>
                 <outlet property="title" destination="ib9-ei-7tB" id="LG0-cv-Z4Z"/>
             </connections>

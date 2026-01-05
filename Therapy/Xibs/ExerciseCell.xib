@@ -156,6 +156,10 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
+                <outlet property="subTitle1" destination="l3j-Op-ayc" id="V0K-WF-3g5"/>
+                <outlet property="subTitle2" destination="jzL-MP-AXo" id="srX-2b-7jX"/>
+                <outlet property="subTitle3" destination="heS-yU-fLc" id="PrM-GE-Roh"/>
+                <outlet property="subTitleImg" destination="wza-CB-Nij" id="abB-2I-Lct"/>
                 <outlet property="title" destination="S3P-Br-XgG" id="9ac-gY-jFN"/>
             </connections>
             <point key="canvasLocation" x="60.305343511450381" y="2.8169014084507045"/>

@@ -13,6 +13,10 @@ class SuggestedCell: UITableViewCell {
     @IBOutlet weak var title: UrbanistLabel!
     @IBOutlet weak var subTitle: UrbanistLabel!
     @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var iconWidth: NSLayoutConstraint!
+    @IBOutlet weak var iconTrailing: NSLayoutConstraint!
+    @IBOutlet weak var nextIcon: UIImageView!
+    @IBOutlet weak var mainViewHeight: NSLayoutConstraint!
     
     class var identifier: String {
         return String(describing: self)

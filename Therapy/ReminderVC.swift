@@ -38,6 +38,12 @@ class ReminderVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        topView.layer.cornerRadius = 40
+        topView.layer.maskedCorners = [
+            .layerMinXMaxYCorner, // bottom-left
+            .layerMaxXMaxYCorner  // bottom-right
+        ]
+        topView.clipsToBounds = true
     }
     @IBAction func back(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)

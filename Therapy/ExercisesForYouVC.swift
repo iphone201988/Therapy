@@ -55,7 +55,7 @@ extension ExercisesForYouVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "MindfulBreathingVC") as! MindfulBreathingVC
-            SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
+        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "MindfulBreathingVC") as! MindfulBreathingVC
+        SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
     }
 }
