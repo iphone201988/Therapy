@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func done(_ sender: UIButton) {
+        let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "WellnessWheelViewVC") as! WellnessWheelViewVC
+        SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
+    }
 }
 

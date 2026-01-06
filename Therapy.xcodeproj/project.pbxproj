@@ -106,6 +106,21 @@
 		8B010DB72F04068C00E4EDEF /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B010DB62F04068C00E4EDEF /* OTPVC.swift */; };
 		8B010DB92F0406A500E4EDEF /* SafetyMattersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B010DB82F0406A500E4EDEF /* SafetyMattersVC.swift */; };
 		8B010DBB2F0406C500E4EDEF /* VerificationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B010DBA2F0406C500E4EDEF /* VerificationCodeVC.swift */; };
+		8B1125BA2F0CEA8600DC9C00 /* AddInsightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125B92F0CEA8600DC9C00 /* AddInsightVC.swift */; };
+		8B1125BC2F0CEF6000DC9C00 /* SmartwatchConnectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125BB2F0CEF6000DC9C00 /* SmartwatchConnectedVC.swift */; };
+		8B1125BF2F0D026700DC9C00 /* OnOffCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1125BE2F0D026700DC9C00 /* OnOffCell.xib */; };
+		8B1125C02F0D026700DC9C00 /* OnOffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125BD2F0D026700DC9C00 /* OnOffCell.swift */; };
+		8B1125C22F0D138800DC9C00 /* AddMilestoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125C12F0D138800DC9C00 /* AddMilestoneVC.swift */; };
+		8B1125C42F0D16E100DC9C00 /* AnalyticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125C32F0D16E100DC9C00 /* AnalyticsVC.swift */; };
+		8B1125C72F0D1DD000DC9C00 /* PatternsDetectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1125C62F0D1DD000DC9C00 /* PatternsDetectedCell.xib */; };
+		8B1125C82F0D1DD000DC9C00 /* PatternsDetectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125C52F0D1DD000DC9C00 /* PatternsDetectedCell.swift */; };
+		8B1125CA2F0D20D400DC9C00 /* WellnessWheelViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125C92F0D20D400DC9C00 /* WellnessWheelViewVC.swift */; };
+		8B1125CC2F0D247900DC9C00 /* WellnessWheelIntroListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125CB2F0D247900DC9C00 /* WellnessWheelIntroListVC.swift */; };
+		8B1125CF2F0D295900DC9C00 /* WellnessWheelIntroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1125CE2F0D295900DC9C00 /* WellnessWheelIntroCell.xib */; };
+		8B1125D02F0D295900DC9C00 /* WellnessWheelIntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125CD2F0D295900DC9C00 /* WellnessWheelIntroCell.swift */; };
+		8B1125D22F0D2E4500DC9C00 /* WheelRatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125D12F0D2E4500DC9C00 /* WheelRatingVC.swift */; };
+		8B1125D52F0D3C7F00DC9C00 /* WheelRatingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1125D42F0D3C7F00DC9C00 /* WheelRatingCell.xib */; };
+		8B1125D62F0D3C7F00DC9C00 /* WheelRatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1125D32F0D3C7F00DC9C00 /* WheelRatingCell.swift */; };
 		8BA7CA322F0B77CE0013779E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7CA312F0B77CE0013779E /* ProfileVC.swift */; };
 		8BA7CA342F0B7D950013779E /* DevicesIntegrationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7CA332F0B7D950013779E /* DevicesIntegrationsVC.swift */; };
 		8BA7CA362F0B83730013779E /* ConnectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7CA352F0B83730013779E /* ConnectedVC.swift */; };
@@ -134,6 +149,10 @@
 		8BA7CA662F0BE5F40013779E /* PsychoeducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7CA652F0BE5F40013779E /* PsychoeducationVC.swift */; };
 		8BA7CA682F0BEE2C0013779E /* MoodCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7CA672F0BEE2C0013779E /* MoodCheckVC.swift */; };
 		8BA7CA6A2F0BF52B0013779E /* TrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7CA692F0BF52B0013779E /* TrackerVC.swift */; };
+		8BC28A282F0CD1D70012372D /* AnxietyEpisodesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC28A272F0CD1D70012372D /* AnxietyEpisodesVC.swift */; };
+		8BC28A2B2F0CD8220012372D /* PointsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC28A2A2F0CD8220012372D /* PointsCell.xib */; };
+		8BC28A2C2F0CD8220012372D /* PointsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC28A292F0CD8220012372D /* PointsCell.swift */; };
+		8BC28A2E2F0CDCDF0012372D /* AddNewSymptomLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC28A2D2F0CDCDF0012372D /* AddNewSymptomLogVC.swift */; };
 		8BC9BD4F2F04E60A00F33682 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9BD4E2F04E60A00F33682 /* HomeVC.swift */; };
 		8BC9BD522F04F23200F33682 /* SuggestedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9BD502F04F23200F33682 /* SuggestedCell.swift */; };
 		8BC9BD532F04F23200F33682 /* SuggestedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9BD512F04F23200F33682 /* SuggestedCell.xib */; };
@@ -282,6 +301,21 @@
 		8B010DB62F04068C00E4EDEF /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
 		8B010DB82F0406A500E4EDEF /* SafetyMattersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyMattersVC.swift; sourceTree = "<group>"; };
 		8B010DBA2F0406C500E4EDEF /* VerificationCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeVC.swift; sourceTree = "<group>"; };
+		8B1125B92F0CEA8600DC9C00 /* AddInsightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInsightVC.swift; sourceTree = "<group>"; };
+		8B1125BB2F0CEF6000DC9C00 /* SmartwatchConnectedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartwatchConnectedVC.swift; sourceTree = "<group>"; };
+		8B1125BD2F0D026700DC9C00 /* OnOffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffCell.swift; sourceTree = "<group>"; };
+		8B1125BE2F0D026700DC9C00 /* OnOffCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnOffCell.xib; sourceTree = "<group>"; };
+		8B1125C12F0D138800DC9C00 /* AddMilestoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMilestoneVC.swift; sourceTree = "<group>"; };
+		8B1125C32F0D16E100DC9C00 /* AnalyticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsVC.swift; sourceTree = "<group>"; };
+		8B1125C52F0D1DD000DC9C00 /* PatternsDetectedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsDetectedCell.swift; sourceTree = "<group>"; };
+		8B1125C62F0D1DD000DC9C00 /* PatternsDetectedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatternsDetectedCell.xib; sourceTree = "<group>"; };
+		8B1125C92F0D20D400DC9C00 /* WellnessWheelViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessWheelViewVC.swift; sourceTree = "<group>"; };
+		8B1125CB2F0D247900DC9C00 /* WellnessWheelIntroListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessWheelIntroListVC.swift; sourceTree = "<group>"; };
+		8B1125CD2F0D295900DC9C00 /* WellnessWheelIntroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessWheelIntroCell.swift; sourceTree = "<group>"; };
+		8B1125CE2F0D295900DC9C00 /* WellnessWheelIntroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WellnessWheelIntroCell.xib; sourceTree = "<group>"; };
+		8B1125D12F0D2E4500DC9C00 /* WheelRatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelRatingVC.swift; sourceTree = "<group>"; };
+		8B1125D32F0D3C7F00DC9C00 /* WheelRatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelRatingCell.swift; sourceTree = "<group>"; };
+		8B1125D42F0D3C7F00DC9C00 /* WheelRatingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WheelRatingCell.xib; sourceTree = "<group>"; };
 		8BA7CA312F0B77CE0013779E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		8BA7CA332F0B7D950013779E /* DevicesIntegrationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesIntegrationsVC.swift; sourceTree = "<group>"; };
 		8BA7CA352F0B83730013779E /* ConnectedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedVC.swift; sourceTree = "<group>"; };
@@ -310,6 +344,10 @@
 		8BA7CA652F0BE5F40013779E /* PsychoeducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychoeducationVC.swift; sourceTree = "<group>"; };
 		8BA7CA672F0BEE2C0013779E /* MoodCheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCheckVC.swift; sourceTree = "<group>"; };
 		8BA7CA692F0BF52B0013779E /* TrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerVC.swift; sourceTree = "<group>"; };
+		8BC28A272F0CD1D70012372D /* AnxietyEpisodesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyEpisodesVC.swift; sourceTree = "<group>"; };
+		8BC28A292F0CD8220012372D /* PointsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCell.swift; sourceTree = "<group>"; };
+		8BC28A2A2F0CD8220012372D /* PointsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointsCell.xib; sourceTree = "<group>"; };
+		8BC28A2D2F0CDCDF0012372D /* AddNewSymptomLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSymptomLogVC.swift; sourceTree = "<group>"; };
 		8BC9BD4E2F04E60A00F33682 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		8BC9BD502F04F23200F33682 /* SuggestedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedCell.swift; sourceTree = "<group>"; };
 		8BC9BD512F04F23200F33682 /* SuggestedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestedCell.xib; sourceTree = "<group>"; };
@@ -388,9 +426,14 @@
 			children = (
 				8B010D212F03D0B000E4EDEF /* AppVault.plist */,
 				8B010BC72F03CA4B00E4EDEF /* Info.plist */,
+				8B1125B92F0CEA8600DC9C00 /* AddInsightVC.swift */,
+				8B1125C12F0D138800DC9C00 /* AddMilestoneVC.swift */,
+				8BC28A2D2F0CDCDF0012372D /* AddNewSymptomLogVC.swift */,
 				8BCA8BD02F07CDC6005BCDDF /* AddReminderVC.swift */,
 				8BA7CA5F2F0BD88D0013779E /* AIAssistantVC.swift */,
 				8BA7CA5D2F0BD3100013779E /* AISupportVC.swift */,
+				8B1125C32F0D16E100DC9C00 /* AnalyticsVC.swift */,
+				8BC28A272F0CD1D70012372D /* AnxietyEpisodesVC.swift */,
 				8B010BC52F03CA4B00E4EDEF /* AppDelegate.swift */,
 				8BCA8BD82F07D8C1005BCDDF /* AppointmentReminderVC.swift */,
 				8BED50682F05582500447429 /* BreathingExerciseVC.swift */,
@@ -413,10 +456,9 @@
 				8BC9BD4E2F04E60A00F33682 /* HomeVC.swift */,
 				8BC9BD752F05372400F33682 /* JournalDetailsVC.swift */,
 				8B010DB02F04065C00E4EDEF /* LoginVC.swift */,
-				8BA7CA692F0BF52B0013779E /* TrackerVC.swift */,
-				8BA7CA672F0BEE2C0013779E /* MoodCheckVC.swift */,
 				8BCA8BD62F07D80B005BCDDF /* MedicationReminderVC.swift */,
 				8BED50642F05468D00447429 /* MindfulBreathingVC.swift */,
+				8BA7CA672F0BEE2C0013779E /* MoodCheckVC.swift */,
 				8BC9BD682F05215E00F33682 /* MoodInsightsVC.swift */,
 				8BC9BD582F04FC7C00F33682 /* MoodSelectorVC.swift */,
 				8BCA8BE02F07E20A005BCDDF /* NotificationsVC.swift */,
@@ -433,16 +475,21 @@
 				8BA7CA4F2F0BBE4F0013779E /* SessionBookedVC.swift */,
 				8BED50662F054C1A00447429 /* SessionCompleteVC.swift */,
 				8B010DB22F04066500E4EDEF /* SignUpVC.swift */,
+				8B1125BB2F0CEF6000DC9C00 /* SmartwatchConnectedVC.swift */,
 				8BA7CA5B2F0BCCBC0013779E /* SnoozeVC.swift */,
 				8BA7CA392F0B8ABE0013779E /* SyncVC.swift */,
 				8BED505C2F05400800447429 /* TabbarsVC.swift */,
 				8BA7CA4D2F0BBB3C0013779E /* TherapistMatchingVC.swift */,
 				8BA7CA512F0BC1770013779E /* TherapistSupportChatVC.swift */,
 				8BA7CA412F0B93290013779E /* TherapistSupportVC.swift */,
+				8BA7CA692F0BF52B0013779E /* TrackerVC.swift */,
 				8B010D9F2F03D1B500E4EDEF /* VaultInfo.swift */,
 				8B010DBA2F0406C500E4EDEF /* VerificationCodeVC.swift */,
 				8B010BCD2F03CA4B00E4EDEF /* ViewController.swift */,
+				8B1125CB2F0D247900DC9C00 /* WellnessWheelIntroListVC.swift */,
 				8BC9BD622F051A5900F33682 /* WellnessWheelListVC.swift */,
+				8B1125C92F0D20D400DC9C00 /* WellnessWheelViewVC.swift */,
+				8B1125D12F0D2E4500DC9C00 /* WheelRatingVC.swift */,
 				8BC9BD732F05356E00F33682 /* YourJournalVC.swift */,
 				8B010DA12F03F42700E4EDEF /* YourWellnessGoalVC.swift */,
 				8B010BC62F03CA4B00E4EDEF /* Assets.xcassets */,
@@ -645,6 +692,16 @@
 				8BA7CA582F0BC8890013779E /* LeftChatCell.xib */,
 				8BA7CA612F0BDEEF0013779E /* AIAssistantSectionCell.swift */,
 				8BA7CA622F0BDEEF0013779E /* AIAssistantSectionCell.xib */,
+				8BC28A292F0CD8220012372D /* PointsCell.swift */,
+				8BC28A2A2F0CD8220012372D /* PointsCell.xib */,
+				8B1125BD2F0D026700DC9C00 /* OnOffCell.swift */,
+				8B1125BE2F0D026700DC9C00 /* OnOffCell.xib */,
+				8B1125C52F0D1DD000DC9C00 /* PatternsDetectedCell.swift */,
+				8B1125C62F0D1DD000DC9C00 /* PatternsDetectedCell.xib */,
+				8B1125CD2F0D295900DC9C00 /* WellnessWheelIntroCell.swift */,
+				8B1125CE2F0D295900DC9C00 /* WellnessWheelIntroCell.xib */,
+				8B1125D32F0D3C7F00DC9C00 /* WheelRatingCell.swift */,
+				8B1125D42F0D3C7F00DC9C00 /* WheelRatingCell.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -734,12 +791,14 @@
 				8B010D102F03CCE600E4EDEF /* Urbanist-ExtraLightItalic.ttf in Resources */,
 				8B010D112F03CCE600E4EDEF /* Urbanist-Italic.ttf in Resources */,
 				8B010D122F03CCE600E4EDEF /* Urbanist-Light.ttf in Resources */,
+				8B1125BF2F0D026700DC9C00 /* OnOffCell.xib in Resources */,
 				8B010D132F03CCE600E4EDEF /* Urbanist-LightItalic.ttf in Resources */,
 				8B010D142F03CCE600E4EDEF /* Urbanist-Medium.ttf in Resources */,
 				8B010D152F03CCE600E4EDEF /* Urbanist-MediumItalic.ttf in Resources */,
 				8B010D162F03CCE600E4EDEF /* Urbanist-Regular.ttf in Resources */,
 				8B010D172F03CCE600E4EDEF /* Urbanist-SemiBold.ttf in Resources */,
 				8B010D182F03CCE600E4EDEF /* Urbanist-SemiBoldItalic.ttf in Resources */,
+				8B1125CF2F0D295900DC9C00 /* WellnessWheelIntroCell.xib in Resources */,
 				8B010D192F03CCE600E4EDEF /* Urbanist-Thin.ttf in Resources */,
 				8B010DAC2F03FE3700E4EDEF /* ContactCell.xib in Resources */,
 				8B010D1A2F03CCE600E4EDEF /* Urbanist-ThinItalic.ttf in Resources */,
@@ -752,12 +811,15 @@
 				8BA7CA4A2F0BB1A60013779E /* OptionCell.xib in Resources */,
 				8BA7CA5A2F0BC8890013779E /* LeftChatCell.xib in Resources */,
 				8BA7CA642F0BDEEF0013779E /* AIAssistantSectionCell.xib in Resources */,
+				8BC28A2B2F0CD8220012372D /* PointsCell.xib in Resources */,
 				8B010D652F03D0BA00E4EDEF /* LocalizableMessage.strings in Resources */,
 				8B010BCF2F03CA4B00E4EDEF /* Assets.xcassets in Resources */,
 				8BC9BD572F04F55900F33682 /* QuickCell.xib in Resources */,
 				8B010D222F03D0B000E4EDEF /* AppVault.plist in Resources */,
+				8B1125C72F0D1DD000DC9C00 /* PatternsDetectedCell.xib in Resources */,
 				8B010BD12F03CA4B00E4EDEF /* LaunchScreen.storyboard in Resources */,
 				8BC9BD532F04F23200F33682 /* SuggestedCell.xib in Resources */,
+				8B1125D52F0D3C7F00DC9C00 /* WheelRatingCell.xib in Resources */,
 				8B010BD22F03CA4B00E4EDEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -771,24 +833,30 @@
 			files = (
 				8B010D202F03D07B00E4EDEF /* UrbanistLabel.swift in Sources */,
 				8B010BD32F03CA4B00E4EDEF /* AppDelegate.swift in Sources */,
+				8B1125C82F0D1DD000DC9C00 /* PatternsDetectedCell.swift in Sources */,
+				8B1125C22F0D138800DC9C00 /* AddMilestoneVC.swift in Sources */,
 				8BA7CA462F0B9F650013779E /* FindTherapistVC2.swift in Sources */,
 				8B010D662F03D0BA00E4EDEF /* KeyboardEventListener.swift in Sources */,
 				8B010D672F03D0BA00E4EDEF /* StringExtension.swift in Sources */,
 				8BE851D52F07A39E00DE8890 /* SummaryCell.swift in Sources */,
+				8B1125CA2F0D20D400DC9C00 /* WellnessWheelViewVC.swift in Sources */,
 				8BC9BD6B2F052C7E00F33682 /* SavedLogsVC.swift in Sources */,
 				8B010D682F03D0BA00E4EDEF /* Toast.swift in Sources */,
+				8B1125BC2F0CEF6000DC9C00 /* SmartwatchConnectedVC.swift in Sources */,
 				8B010D692F03D0BA00E4EDEF /* DateUtils.swift in Sources */,
 				8BA7CA382F0B89110013779E /* ConnectedDevicesVC.swift in Sources */,
 				8B010D6A2F03D0BA00E4EDEF /* CollectionViewLayouts.swift in Sources */,
 				8B010D6B2F03D0BA00E4EDEF /* Gradients.swift in Sources */,
 				8B010D6C2F03D0BA00E4EDEF /* MediaPicker.swift in Sources */,
 				8BA7CA6A2F0BF52B0013779E /* TrackerVC.swift in Sources */,
+				8B1125BA2F0CEA8600DC9C00 /* AddInsightVC.swift in Sources */,
 				8B010D6D2F03D0BA00E4EDEF /* TextFieldExt.swift in Sources */,
 				8B010DBB2F0406C500E4EDEF /* VerificationCodeVC.swift in Sources */,
 				8B010D6E2F03D0BA00E4EDEF /* DoubleExt.swift in Sources */,
 				8BCA8BD32F07CF03005BCDDF /* ExerciseReminderVC.swift in Sources */,
 				8B010D6F2F03D0BA00E4EDEF /* LimitedAssetPreviewCell.swift in Sources */,
 				8BA7CA402F0B918D0013779E /* PersonalInfoVC.swift in Sources */,
+				8BC28A282F0CD1D70012372D /* AnxietyEpisodesVC.swift in Sources */,
 				8BC9BD522F04F23200F33682 /* SuggestedCell.swift in Sources */,
 				8B010DA22F03F42700E4EDEF /* YourWellnessGoalVC.swift in Sources */,
 				8BE851CE2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift in Sources */,
@@ -796,6 +864,7 @@
 				8BC9BD742F05356E00F33682 /* YourJournalVC.swift in Sources */,
 				8BA7CA502F0BBE4F0013779E /* SessionBookedVC.swift in Sources */,
 				8BA7CA592F0BC8890013779E /* LeftChatCell.swift in Sources */,
+				8B1125C02F0D026700DC9C00 /* OnOffCell.swift in Sources */,
 				8B010D702F03D0BA00E4EDEF /* InspectableTextField.swift in Sources */,
 				8B010DB72F04068C00E4EDEF /* OTPVC.swift in Sources */,
 				8B010DB32F04066500E4EDEF /* SignUpVC.swift in Sources */,
@@ -825,6 +894,8 @@
 				8B010D7A2F03D0BA00E4EDEF /* InputFieldValidator.swift in Sources */,
 				8B010D7B2F03D0BA00E4EDEF /* CircularProgressBar.swift in Sources */,
 				8BA7CA3C2F0B8C6A0013779E /* EmergencyContactsVC.swift in Sources */,
+				8B1125D02F0D295900DC9C00 /* WellnessWheelIntroCell.swift in Sources */,
+				8B1125D62F0D3C7F00DC9C00 /* WheelRatingCell.swift in Sources */,
 				8BCA8BD72F07D80B005BCDDF /* MedicationReminderVC.swift in Sources */,
 				8BA7CA342F0B7D950013779E /* DevicesIntegrationsVC.swift in Sources */,
 				8B010D7C2F03D0BA00E4EDEF /* DataExt.swift in Sources */,
@@ -846,12 +917,14 @@
 				8BA7CA4E2F0BBB3C0013779E /* TherapistMatchingVC.swift in Sources */,
 				8BA7CA362F0B83730013779E /* ConnectedVC.swift in Sources */,
 				8BA7CA442F0B9A0E0013779E /* FindTherapistVC.swift in Sources */,
+				8BC28A2E2F0CDCDF0012372D /* AddNewSymptomLogVC.swift in Sources */,
 				8B010D872F03D0BA00E4EDEF /* URLExt.swift in Sources */,
 				8BED50672F054C1A00447429 /* SessionCompleteVC.swift in Sources */,
 				8B010D882F03D0BA00E4EDEF /* NotificationCenterName.swift in Sources */,
 				8B010D892F03D0BA00E4EDEF /* Constants.swift in Sources */,
 				8BA7CA522F0BC1770013779E /* TherapistSupportChatVC.swift in Sources */,
 				8BED50692F05582500447429 /* BreathingExerciseVC.swift in Sources */,
+				8B1125D22F0D2E4500DC9C00 /* WheelRatingVC.swift in Sources */,
 				8BC9BD6E2F052D3E00F33682 /* SavedLogCell.swift in Sources */,
 				8BA7CA552F0BC6320013779E /* RightChatCell.swift in Sources */,
 				8B010D8A2F03D0BA00E4EDEF /* TPKeyboardAvoidingScrollView.m in Sources */,
@@ -869,6 +942,7 @@
 				8B010DAF2F04063100E4EDEF /* CreatePasswordVC.swift in Sources */,
 				8B010D8F2F03D0BA00E4EDEF /* UIImageExt.swift in Sources */,
 				8B010D902F03D0BA00E4EDEF /* ViewExt.swift in Sources */,
+				8B1125C42F0D16E100DC9C00 /* AnalyticsVC.swift in Sources */,
 				8B010D912F03D0BA00E4EDEF /* LogHandler.swift in Sources */,
 				8B010DA72F03F49000E4EDEF /* GoalCell.swift in Sources */,
 				8B010D922F03D0BA00E4EDEF /* TableViewExt.swift in Sources */,
@@ -883,9 +957,11 @@
 				8BED50622F05436800447429 /* ExerciseCell.swift in Sources */,
 				8BA7CA602F0BD88D0013779E /* AIAssistantVC.swift in Sources */,
 				8B010D982F03D0BA00E4EDEF /* LocationPermissionUtil.swift in Sources */,
+				8BC28A2C2F0CD8220012372D /* PointsCell.swift in Sources */,
 				8B010DA02F03D1B500E4EDEF /* VaultInfo.swift in Sources */,
 				8B010D992F03D0BA00E4EDEF /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				8BA7CA422F0B93290013779E /* TherapistSupportVC.swift in Sources */,
+				8B1125CC2F0D247900DC9C00 /* WellnessWheelIntroListVC.swift in Sources */,
 				8B010DA92F03FD0200E4EDEF /* EmergencyContactSetupVC.swift in Sources */,
 				8BED506B2F055B7400447429 /* CBTActivitiesVC.swift in Sources */,
 				8B010D9A2F03D0BA00E4EDEF /* InterLabel.swift in Sources */,

@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let storyboard = AppStoryboards.main.storyboardInstance
         let rootVC = storyboard.instantiateViewController(withIdentifier: "TabbarsVC") as! TabbarsVC
-        SharedMethods.shared.navigateToRootVC(rootVC: rootVC)
+       // SharedMethods.shared.navigateToRootVC(rootVC: rootVC)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

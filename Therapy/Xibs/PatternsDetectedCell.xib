@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="46" id="KGk-i7-Jjw" customClass="PatternsDetectedCell" customModule="Therapy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="596" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="596" height="46"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkz-do-Npo">
+                        <rect key="frame" x="0.0" y="0.0" width="596" height="42"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame 1261153572" translatesAutoresizingMaskIntoConstraints="NO" id="SM0-nU-yBY">
+                                <rect key="frame" x="0.0" y="5" width="32" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="IkQ-Ed-rPl"/>
+                                    <constraint firstAttribute="width" secondItem="SM0-nU-yBY" secondAttribute="height" multiplier="1:1" id="v4E-B8-1Jp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fe-61-qa5" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                <rect key="frame" x="40" y="21" width="548" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" name="333333"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Medium"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SM0-nU-yBY" firstAttribute="top" secondItem="Jkz-do-Npo" secondAttribute="top" constant="5" id="1Bt-sl-7ID"/>
+                            <constraint firstItem="SM0-nU-yBY" firstAttribute="centerY" secondItem="Jkz-do-Npo" secondAttribute="centerY" id="8E0-11-Y1z"/>
+                            <constraint firstItem="5Fe-61-qa5" firstAttribute="centerY" secondItem="SM0-nU-yBY" secondAttribute="centerY" id="9bQ-hv-sIZ"/>
+                            <constraint firstItem="SM0-nU-yBY" firstAttribute="leading" secondItem="Jkz-do-Npo" secondAttribute="leading" id="Ikc-pB-0eM"/>
+                            <constraint firstAttribute="trailing" secondItem="5Fe-61-qa5" secondAttribute="trailing" constant="8" id="L6p-zI-HYV"/>
+                            <constraint firstItem="5Fe-61-qa5" firstAttribute="leading" secondItem="SM0-nU-yBY" secondAttribute="trailing" constant="8" id="jjU-oh-S1t"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Jkz-do-Npo" secondAttribute="bottom" constant="4" id="M9E-bu-A0H"/>
+                    <constraint firstItem="Jkz-do-Npo" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="W44-fh-xtF"/>
+                    <constraint firstItem="Jkz-do-Npo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oFt-xb-FCf"/>
+                    <constraint firstItem="Jkz-do-Npo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vIT-mr-Eyc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="option" destination="5Fe-61-qa5" id="BiR-6Z-vgE"/>
+            </connections>
+            <point key="canvasLocation" x="137.40458015267174" y="-11.267605633802818"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Frame 1261153572" width="32" height="32"/>
+        <namedColor name="333333">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

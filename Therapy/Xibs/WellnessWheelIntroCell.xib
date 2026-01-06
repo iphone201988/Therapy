@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="102" id="KGk-i7-Jjw" customClass="WellnessWheelIntroCell" customModule="Therapy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="irI-Yn-LSb">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MNn-Nl-LEO">
+                                <rect key="frame" x="16" y="12" width="66" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MNn-Nl-LEO" secondAttribute="height" multiplier="1:1" id="Fdy-3p-g72"/>
+                                    <constraint firstAttribute="width" constant="66" id="hZA-Hi-fGo"/>
+                                </constraints>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="tNc-ZG-Sgr">
+                                <rect key="frame" x="92" y="45" width="376" height="0.0"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acI-DT-RBS" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="376" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nv-iN-knj" customClass="UrbanistLabel" customModule="Therapy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="376" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <color key="textColor" name="333333"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="urbanistStyle" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0Nv-iN-knj" firstAttribute="top" secondItem="acI-DT-RBS" secondAttribute="bottom" id="0eF-ft-pnz"/>
+                                    <constraint firstItem="acI-DT-RBS" firstAttribute="top" secondItem="tNc-ZG-Sgr" secondAttribute="top" id="713-dU-tJ1"/>
+                                    <constraint firstItem="0Nv-iN-knj" firstAttribute="centerX" secondItem="acI-DT-RBS" secondAttribute="centerX" id="Ax9-AH-bNd"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Nv-iN-knj" secondAttribute="bottom" id="KfN-ih-vf0"/>
+                                    <constraint firstItem="acI-DT-RBS" firstAttribute="centerX" secondItem="tNc-ZG-Sgr" secondAttribute="centerX" id="aSD-Qq-B6e"/>
+                                    <constraint firstItem="0Nv-iN-knj" firstAttribute="leading" secondItem="acI-DT-RBS" secondAttribute="leading" id="umU-5h-d45"/>
+                                    <constraint firstItem="acI-DT-RBS" firstAttribute="leading" secondItem="tNc-ZG-Sgr" secondAttribute="leading" id="xld-wm-I8R"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tNc-ZG-Sgr" secondAttribute="trailing" constant="12" id="1gy-rj-fuD"/>
+                            <constraint firstAttribute="height" constant="90" id="IuG-0j-sP5"/>
+                            <constraint firstItem="tNc-ZG-Sgr" firstAttribute="centerY" secondItem="MNn-Nl-LEO" secondAttribute="centerY" id="IwJ-Rp-NeJ"/>
+                            <constraint firstItem="tNc-ZG-Sgr" firstAttribute="leading" secondItem="MNn-Nl-LEO" secondAttribute="trailing" constant="10" id="e1r-2n-Rym"/>
+                            <constraint firstItem="MNn-Nl-LEO" firstAttribute="centerY" secondItem="irI-Yn-LSb" secondAttribute="centerY" id="mQi-JK-ueE"/>
+                            <constraint firstItem="MNn-Nl-LEO" firstAttribute="leading" secondItem="irI-Yn-LSb" secondAttribute="leading" constant="16" id="yYc-Y0-Ds1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="24"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="irI-Yn-LSb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BGs-yc-GAR"/>
+                    <constraint firstAttribute="bottom" secondItem="irI-Yn-LSb" secondAttribute="bottom" constant="12" id="IYU-MK-G9B"/>
+                    <constraint firstItem="irI-Yn-LSb" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="fD8-bQ-4Yy"/>
+                    <constraint firstItem="irI-Yn-LSb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sSs-U9-Fy1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="icon" destination="MNn-Nl-LEO" id="mnm-i1-3sJ"/>
+                <outlet property="mainView" destination="irI-Yn-LSb" id="50L-sa-JMf"/>
+                <outlet property="subTitle" destination="0Nv-iN-knj" id="gNh-hD-9hM"/>
+                <outlet property="title" destination="acI-DT-RBS" id="8Xy-4g-Q7g"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="9.1549295774647899"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="333333">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
