@@ -14,7 +14,7 @@ actor InputFieldValidator {
         var description: String {
             switch self {
             case .invalidEmail: return "Email is not valid."
-            case .weakPassword: return "Password must be at least 6 characters."
+            case .weakPassword: return "Password must be at least 8 characters."
             case .passwordMismatch: return "Passwords do not match."
             case .emptyField(let field): return "\(field) cannot be empty."
             case .invalidPhoneNumber: return "Phone number is invalid."

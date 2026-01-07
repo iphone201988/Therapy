@@ -78,3 +78,10 @@ enum LocalizableFiles {
         }
     }
 }
+
+public extension String {
+    
+    var isEmptyStr:Bool{
+        return self.trimmingCharacters(in: NSCharacterSet.whitespaces).isEmpty
+    }
+}

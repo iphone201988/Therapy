@@ -15,6 +15,12 @@ class SharedMethods {
         }
     }
     
+    func navigateToTabbarsVC() {
+        let storyboard = AppStoryboards.main.storyboardInstance
+        let rootVC = storyboard.instantiateViewController(withIdentifier: "TabbarsVC") as! TabbarsVC
+       SharedMethods.shared.navigateToRootVC(rootVC: rootVC)
+    }
+    
     func navigateToRootVC(rootVC: UIViewController) {
         // Ensure the key window scene is used
         if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,

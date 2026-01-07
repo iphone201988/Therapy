@@ -1,16 +1,20 @@
 //
 //  Endpoints.swift
-//  AUMY.IO
+//  Therapy
 //
 //  Created by iOS Developer on 15/10/25.
 //
 
 enum Endpoints: String {
-    case signup = "common/signup"
-    case login  = "common/login"
-    case accountVerify = "common/account-verify"
-    case completeOnboarding = "common/complete-onboarding"
-    case getUser = "common/get-user"
+    case register = "auth/register"
+    case login = "auth/login"
+    case verifyOtp = "auth/verify-otp"
+    case forgotPassword = "auth/forgot-password"
+    case resetPassword = "auth/reset-password"
+    case social = "auth/social"
+    case refreshToken = "auth/refresh-token"
+    case profile = "user/profile"
+    case logout = "auth/logout"
 }
 
 enum HttpMehtods: String {

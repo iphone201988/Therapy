@@ -101,6 +101,7 @@
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="G2Y-NW-GhL" secondAttribute="top" id="Wna-qT-qJQ"/>
                 <constraint firstItem="G2Y-NW-GhL" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="YKA-AI-9l4"/>

@@ -1,6 +1,5 @@
 
 protocol ServicesEvents {
-    func backTo(vc: ViewControllers)
     func resumeShorts()
     func selectedPlaybackSpeed(value: Double)
     func selectedPixel(value: Int?)
@@ -9,7 +8,6 @@ protocol ServicesEvents {
 }
 
 extension ServicesEvents {
-    func backTo(vc: ViewControllers) {}
     func resumeShorts() {}
     func selectedPlaybackSpeed(value: Double) {}
     func selectedPixel(value: Int?) {}

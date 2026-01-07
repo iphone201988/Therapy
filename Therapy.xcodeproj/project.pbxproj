@@ -183,6 +183,10 @@
 		8BCA8BDE2F07DF97005BCDDF /* ReminderDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BDC2F07DF97005BCDDF /* ReminderDetailsCell.swift */; };
 		8BCA8BDF2F07DF97005BCDDF /* ReminderDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA8BDD2F07DF97005BCDDF /* ReminderDetailsCell.xib */; };
 		8BCA8BE12F07E20A005BCDDF /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA8BE02F07E20A005BCDDF /* NotificationsVC.swift */; };
+		8BE3DE4E2F0E28ED0076DBB1 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3DE4D2F0E28ED0076DBB1 /* CustomPickerView.swift */; };
+		8BE3DE502F0E29200076DBB1 /* PickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3DE4F2F0E29200076DBB1 /* PickerCell.swift */; };
+		8BE3DE522F0E2A720076DBB1 /* WheelVisualizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3DE512F0E2A720076DBB1 /* WheelVisualizationVC.swift */; };
+		8BE3DE582F0E5A1F0076DBB1 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3DE562F0E5A1F0076DBB1 /* UserDetails.swift */; };
 		8BE851CE2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE851CD2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift */; };
 		8BE851D12F07864600DE8890 /* CounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE851CF2F07864600DE8890 /* CounterCell.swift */; };
 		8BE851D22F07864600DE8890 /* CounterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE851D02F07864600DE8890 /* CounterCell.xib */; };
@@ -377,6 +381,10 @@
 		8BCA8BDC2F07DF97005BCDDF /* ReminderDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailsCell.swift; sourceTree = "<group>"; };
 		8BCA8BDD2F07DF97005BCDDF /* ReminderDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetailsCell.xib; sourceTree = "<group>"; };
 		8BCA8BE02F07E20A005BCDDF /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		8BE3DE4D2F0E28ED0076DBB1 /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		8BE3DE4F2F0E29200076DBB1 /* PickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCell.swift; sourceTree = "<group>"; };
+		8BE3DE512F0E2A720076DBB1 /* WheelVisualizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelVisualizationVC.swift; sourceTree = "<group>"; };
+		8BE3DE562F0E5A1F0076DBB1 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		8BE851CD2F07857F00DE8890 /* CBTActivitiesExercisesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTActivitiesExercisesVC.swift; sourceTree = "<group>"; };
 		8BE851CF2F07864600DE8890 /* CounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCell.swift; sourceTree = "<group>"; };
 		8BE851D02F07864600DE8890 /* CounterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterCell.xib; sourceTree = "<group>"; };
@@ -490,12 +498,14 @@
 				8BC9BD622F051A5900F33682 /* WellnessWheelListVC.swift */,
 				8B1125C92F0D20D400DC9C00 /* WellnessWheelViewVC.swift */,
 				8B1125D12F0D2E4500DC9C00 /* WheelRatingVC.swift */,
+				8BE3DE512F0E2A720076DBB1 /* WheelVisualizationVC.swift */,
 				8BC9BD732F05356E00F33682 /* YourJournalVC.swift */,
 				8B010DA12F03F42700E4EDEF /* YourWellnessGoalVC.swift */,
 				8B010BC62F03CA4B00E4EDEF /* Assets.xcassets */,
 				8B010BD62F03CCB500E4EDEF /* Fonts */,
 				8B010BC92F03CA4B00E4EDEF /* LaunchScreen.storyboard */,
 				8B010BCB2F03CA4B00E4EDEF /* Main.storyboard */,
+				8BE3DE572F0E5A1F0076DBB1 /* Models */,
 				8B010D632F03D0BA00E4EDEF /* SharedComponents */,
 				8B010DA32F03F47700E4EDEF /* Xibs */,
 			);
@@ -539,11 +549,11 @@
 		8B010D082F03CCE600E4EDEF /* Urbanist */ = {
 			isa = PBXGroup;
 			children = (
-				8B010D032F03CCE600E4EDEF /* static */,
-				8B010D042F03CCE600E4EDEF /* OFL.txt */,
-				8B010D052F03CCE600E4EDEF /* README.txt */,
 				8B010D062F03CCE600E4EDEF /* Urbanist-Italic-VariableFont_wght.ttf */,
 				8B010D072F03CCE600E4EDEF /* Urbanist-VariableFont_wght.ttf */,
+				8B010D042F03CCE600E4EDEF /* OFL.txt */,
+				8B010D052F03CCE600E4EDEF /* README.txt */,
+				8B010D032F03CCE600E4EDEF /* static */,
 			);
 			path = Urbanist;
 			sourceTree = "<group>";
@@ -625,6 +635,7 @@
 		8B010D632F03D0BA00E4EDEF /* SharedComponents */ = {
 			isa = PBXGroup;
 			children = (
+				8BE3DE4C2F0E28D40076DBB1 /* CustomPickerView */,
 				8B010D232F03D0BA00E4EDEF /* LocalizableMessage.strings */,
 				8B010D262F03D0BA00E4EDEF /* CircularGradientLoader.swift */,
 				8B010D272F03D0BA00E4EDEF /* CircularProgressBar.swift */,
@@ -704,6 +715,23 @@
 				8B1125D42F0D3C7F00DC9C00 /* WheelRatingCell.xib */,
 			);
 			path = Xibs;
+			sourceTree = "<group>";
+		};
+		8BE3DE4C2F0E28D40076DBB1 /* CustomPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3DE4D2F0E28ED0076DBB1 /* CustomPickerView.swift */,
+				8BE3DE4F2F0E29200076DBB1 /* PickerCell.swift */,
+			);
+			path = CustomPickerView;
+			sourceTree = "<group>";
+		};
+		8BE3DE572F0E5A1F0076DBB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3DE562F0E5A1F0076DBB1 /* UserDetails.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -905,6 +933,7 @@
 				8BCA8BD92F07D8C1005BCDDF /* AppointmentReminderVC.swift in Sources */,
 				8B010D7F2F03D0BA00E4EDEF /* PickerManager.swift in Sources */,
 				8B010D812F03D0BA00E4EDEF /* CollectionViewExt.swift in Sources */,
+				8BE3DE522F0E2A720076DBB1 /* WheelVisualizationVC.swift in Sources */,
 				8B010D822F03D0BA00E4EDEF /* UILabelExtensions.swift in Sources */,
 				8BC9BD612F05182000F33682 /* ReflectToLogVC.swift in Sources */,
 				8B010DB12F04065C00E4EDEF /* LoginVC.swift in Sources */,
@@ -924,6 +953,7 @@
 				8B010D892F03D0BA00E4EDEF /* Constants.swift in Sources */,
 				8BA7CA522F0BC1770013779E /* TherapistSupportChatVC.swift in Sources */,
 				8BED50692F05582500447429 /* BreathingExerciseVC.swift in Sources */,
+				8BE3DE582F0E5A1F0076DBB1 /* UserDetails.swift in Sources */,
 				8B1125D22F0D2E4500DC9C00 /* WheelRatingVC.swift in Sources */,
 				8BC9BD6E2F052D3E00F33682 /* SavedLogCell.swift in Sources */,
 				8BA7CA552F0BC6320013779E /* RightChatCell.swift in Sources */,
@@ -932,11 +962,13 @@
 				8BCA8BDE2F07DF97005BCDDF /* ReminderDetailsCell.swift in Sources */,
 				8BC9BD5F2F05042B00F33682 /* EmotionNotesVC.swift in Sources */,
 				8B010D8C2F03D0BA00E4EDEF /* CometLoader.swift in Sources */,
+				8BE3DE4E2F0E28ED0076DBB1 /* CustomPickerView.swift in Sources */,
 				8BC9BD562F04F55900F33682 /* QuickCell.swift in Sources */,
 				8BCA8BE12F07E20A005BCDDF /* NotificationsVC.swift in Sources */,
 				8BA7CA492F0BB1A60013779E /* OptionCell.swift in Sources */,
 				8B010D8D2F03D0BA00E4EDEF /* Protocols.swift in Sources */,
 				8BC9BD5D2F04FF4800F33682 /* TagCell.swift in Sources */,
+				8BE3DE502F0E29200076DBB1 /* PickerCell.swift in Sources */,
 				8B010DB92F0406A500E4EDEF /* SafetyMattersVC.swift in Sources */,
 				8B010D8E2F03D0BA00E4EDEF /* LimitedAssetsViewController.swift in Sources */,
 				8B010DAF2F04063100E4EDEF /* CreatePasswordVC.swift in Sources */,

@@ -15,4 +15,8 @@ struct StoredKeys<Value> {
     static var accessToken: StoredKeys<String> {
         return StoredKeys<String>(Keyname.accessToken)
     }
+    
+    static var loggedUserDetails: StoredKeys<UserDetails> {
+        return StoredKeys<UserDetails>(Keyname.loggedUserDetails)
+    }
 }

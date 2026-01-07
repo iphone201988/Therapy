@@ -14,55 +14,14 @@ enum AppStoryboards: String {
     }
 }
 
-enum ViewControllers {
-    case homeVC
-    case mapVC
-    case selectLocationVC
-    case chooseVehicleVC
-    case pickupDetailsVC
-    case serviceDetailsVC
-    case cancelServiceVC
-    case serviceCanclledVC
-    case messageDriverVC
+enum VerifyOTPFor: String {
+    case forgot
+    case register
 }
 
-enum Role {
-    case user
-    case driver
-    
-    var type: Int {
-        switch self {
-        case .user: return 1
-        case .driver: return 1
-        }
-    }
-}
-
-enum Events {
-    case signup
-    case signin
-    case forgotPassword
-    case changePassword
-    case logout
-    case updateProfile
-    case updatePassword
-    case deleteOrEditService
-    case serviceDetails
-    case createService
-    case booked
-    case onTheWay
-    case started
-    case completed
-}
-
-enum Roles {
-    case user
-    case serviceProvider
-    
-    var type: Int {
-        switch self {
-        case .user: return 1
-        case .serviceProvider: return 2
-        }
-    }
+enum ForgotPasswordFor: Int {
+    case register = 1
+    case resendRegister = 2
+    case forget = 3
+    case resendForget = 4
 }

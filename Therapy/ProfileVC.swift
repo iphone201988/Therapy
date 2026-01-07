@@ -32,12 +32,12 @@ class ProfileVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-//        topView.layer.cornerRadius = 40
-//        topView.layer.maskedCorners = [
-//            .layerMinXMaxYCorner, // bottom-left
-//            .layerMaxXMaxYCorner  // bottom-right
-//        ]
-//        topView.clipsToBounds = true
+        //        topView.layer.cornerRadius = 40
+        //        topView.layer.maskedCorners = [
+        //            .layerMinXMaxYCorner, // bottom-left
+        //            .layerMaxXMaxYCorner  // bottom-right
+        //        ]
+        //        topView.clipsToBounds = true
     }
     
     @IBAction func back(_ sender: UIButton) {
@@ -45,7 +45,6 @@ class ProfileVC: UIViewController {
     }
 }
 
-// MARK: Delegates and DataSources
 // MARK: Delegates and DataSources
 extension ProfileVC: UITableViewDelegate, UITableViewDataSource {
     
@@ -87,7 +86,16 @@ extension ProfileVC: UITableViewDelegate, UITableViewDataSource {
         let option = arr[indexPath.row]
         let title = option["title"] ?? ""
         if title == "Logout" {
-            
+            PopupUtil.popupAlert(title: "Therapy",
+                                 message: "logout_msg".localized(),
+                                 actionTitles: ["Logout", "No"],
+                                 actions: [{ [weak self] _, _ in
+                Task { await self?.logout() }
+                UserDefaults.standard.clearAllLocallySavedData()
+                let storyboard = AppStoryboards.main.storyboardInstance
+                let rootVC = storyboard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+                SharedMethods.shared.navigateToRootVC(rootVC: rootVC)
+            }])
         } else if title == "Devices & Integrations" {
             let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "DevicesIntegrationsVC") as! DevicesIntegrationsVC
             SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
@@ -103,6 +111,24 @@ extension ProfileVC: UITableViewDelegate, UITableViewDataSource {
         } else if title == "Therapist Support" {
             let destVC = AppStoryboards.main.storyboardInstance.instantiateViewController(withIdentifier: "TherapistSupportVC") as! TherapistSupportVC
             SharedMethods.shared.pushTo(destVC: destVC, isAnimated: true)
+        }
+    }
+}
+
+extension ProfileVC {
+    fileprivate func logout() async {
+        let res = await RemoteRequestManager.shared.dataTask(endpoint: .logout,
+                                                             model: UserModel.self,
+                                                             method: .post,
+                                                             body: .rawJSON)
+        await MainActor.run {
+            switch res {
+            case .failure(let err):
+                Toast.show(message: err.localizedDescription)
+                
+            case .success:
+                LogHandler.debugLog("Logout")
+            }
         }
     }
 }
